@@ -12,7 +12,6 @@ let rec last_two = function
 | _ :: y -> last_two y
 
 (** Find the N'th element of a list. *)
-let rec nth lst n = List.nth lst n
 
 (** Find the number of elements of a list. OCaml standard library has List.length but we ask that you reimplement it. Bonus for a tail recursive solution. *)
 let rec length = function
